@@ -1,0 +1,48 @@
+.title {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 50px;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    background-color: #0d6efd;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+}
+
+.hot-sale {
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+td,
+th {
+    text-align: center;
+    width: fit-content;
+    padding: 10px 50px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e4e4e4;
+}
+
+.main {
+    height: 100vh;
+    padding-top: 77px;
+}
+
+.cart {
+    padding-top: 77px;
+}
