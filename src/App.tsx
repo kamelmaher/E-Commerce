@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import "./App.css";
-import Features from "./components/Features";
-import HotSales from "./components/HotSales";
-import Main from "./components/Main";
-import Products from "./components/Products";
+import Features from "./components/Main/Features/Features";
+import HotSales from "./components/Main/HotSales";
+import Main from "./components/Main/Main";
+import Products from "./components/Main/Products/Products";
 import { useAppDispatch } from "./store/Store";
 import { fetchCartData } from "./store/CartSlice";
 

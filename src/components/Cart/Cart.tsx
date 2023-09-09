@@ -1,7 +1,7 @@
 import CartItem from "./CartItem";
-import { useAppDispatch, useAppSelector } from "../store/Store";
+import { useAppDispatch, useAppSelector } from "../../store/Store";
 import { useEffect, useState } from "react";
-import { clearCart } from "../store/CartSlice";
+import { clearCart } from "../../store/CartSlice";
 export default function Cart() {
     const data = useAppSelector(data => data.Cart)
     const dispatch = useAppDispatch();

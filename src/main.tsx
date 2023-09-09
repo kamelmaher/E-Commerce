@@ -4,7 +4,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import { Store } from "./store/Store.ts"
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
-import Cart from './components/Cart.tsx'
+import Cart from './components/Cart/Cart.tsx'
 import Layout from './Layout.tsx'
 const router = createBrowserRouter(
   createRoutesFromElements(

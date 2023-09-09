@@ -1,6 +1,6 @@
 import imgItem from "../img/mainImg.jpg"
-import { addProduct } from "../store/CartSlice";
-import { useAppDispatch } from "../store/Store"
+import { addProduct } from "../../../store/CartSlice";
+import { useAppDispatch } from "../../../store/Store"
 type ProductProps = {
     title: string,
     price: number,
@@ -24,8 +24,8 @@ function Product({ title, price, desc, hotSale }: ProductProps) {
                         <h5 className={hotSale ? "card-title mt-4" : "card-title"}>{title}</h5>
                         <p className="card-text">{desc}</p>
                         <p className="card-text">{price}</p>
-                        <button className="btn btn-primary" onClick={()=> {
-                            dispatch(addProduct({id : Math.floor(Math.random() * 1000), title: title , price: price , quantity: 1}))
+                        <button className="btn btn-primary" onClick={() => {
+                            dispatch(addProduct({ id: Math.floor(Math.random() * 1000), title: title, price: price, quantity: 1 }))
                         }}>Add To Card</button>
                     </div>
                 </div>

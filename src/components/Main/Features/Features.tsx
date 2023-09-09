@@ -8,9 +8,9 @@ function Features() {
                     Features
                 </h2>
                 <div className="row justify-content-between mt-5 pt-5 pb-5">
-                    <Feature text="Free Shipping" desc="FREE SHIPPING onorders over $45"/>
-                    <Feature text="Easy Returns" desc="Return the product anytimewithin 30 days"/>
-                    <Feature text="B-Corp Certified" desc="Supporting the communitieswhere we live, work and play."/>
+                    <Feature text="Free Shipping" desc="FREE SHIPPING onorders over $45" />
+                    <Feature text="Easy Returns" desc="Return the product anytimewithin 30 days" />
+                    <Feature text="B-Corp Certified" desc="Supporting the communitieswhere we live, work and play." />
                 </div>
             </div>
         </div>
