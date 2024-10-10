@@ -46,3 +46,13 @@ tr:nth-child(odd) {
 .cart {
     padding-top: 77px;
 }
+
+.product .card {
+    height: 600px !important;
+}
+
+.product .desc {
+    max-height: 200px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -12,7 +12,7 @@ function HotSales() {
                 <div className="row">
                     {Data.map((e, index) => {
                         if (e.hotSale)
-                            return <Product key={index} title={e.title} price={e.price} desc={e.desc} img={e.img} hotSale={e.hotSale} />
+                            return <Product key={index} title={e.title} price={e.price} desc={e.desc} img={e.img}  />
                         else return null
                     })}
                 </div>

@@ -1,6 +1,6 @@
 /** @format */
 
-import maiImage from "../img/mainImg.jpg";
+import maiImage from "../../img/mainImg.jpg";
 function Main() {
     return (
         <div className="main">
